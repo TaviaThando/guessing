@@ -1,5 +1,5 @@
 import java.util.Scanner;
-//import java.util.Random;
+import java.util.Random;
 
 public class number_guess {
     public static void main(String[] args) {
@@ -11,6 +11,7 @@ public class number_guess {
 
         int num_guess = number.nextInt();     
 
+        Random num = new Random()
         
 
     }
