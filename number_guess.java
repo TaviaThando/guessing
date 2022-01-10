@@ -11,8 +11,12 @@ public class number_guess {
 
         int num_guess = number.nextInt();     
 
-        Random num = new Random()
-        
+        Random num = new Random();
+        int upperbound = 50;
+        //generating random values from 1 to 49
+        int num_random = num.nextInt(upperbound);
+
+        System.out.println(num_random);
 
     }
 }
