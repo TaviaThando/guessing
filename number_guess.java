@@ -16,12 +16,12 @@ public class number_guess {
         //generating random values from 1 to 49
         int num_random = num.nextInt(upperbound);
 
-        if (number == num_random){
+        if (num_guess == num_random){
             System.out.println("You guessed the correct number!");
         }
 
-        else if (number != num_random){
-            System.out.println(String.format("The correct number is %s", num_random))
+        else if (num_guess != num_random){
+            System.out.println(String.format("The correct number is %s", num_random));
         }
 
         
